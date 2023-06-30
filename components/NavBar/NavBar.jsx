@@ -3,11 +3,11 @@ import './NavBar.css'
 import { NavLink, Link } from "react-router-dom"
 
 const NavBar = () => {
-    const imgMarolio = "https://www.marolio.com.ar/sites/all/themes/theme1043/logo.png";
+    const imgMancuerna = "https://www.pngegg.com/es/png-sdnyj";
     return (
         <header>
             <Link to={"/"}>
-                <img className="imgMarolio" src={imgMarolio} alt="" />
+                <img className="imgMancuerna" src={imgMancuerna} alt="" />
             </Link>
 
             <nav>
